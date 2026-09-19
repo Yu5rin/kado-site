@@ -33,9 +33,12 @@ https://yu5rin.github.io/slideinacalendar-site/privacy.html
 | [アプリケーション プライバシー ポリシー] リンク | `https://yu5rin.github.io/slideinacalendar-site/privacy.html` |
 | 承認済みドメイン | `yu5rin.github.io` |
 
-承認済みドメインは [Search Console](https://search.google.com/search-console) での
-所有確認が要る。`https://yu5rin.github.io/slideinacalendar-site/` を URL プレフィックスで
-登録し、HTML ファイルをこのリポジトリの直下に置いて確認する方法が手早い。
+## 所有確認のファイル
+
+承認済みドメインには [Search Console](https://search.google.com/search-console) での
+所有確認が要る。`googlebb0482883758bfcb.html` がその確認用ファイル。
+
+**消さないこと。** 消すと所有確認が外れ、同意画面の承認済みドメインも無効になる。
 
 ## 中身を変えるとき
 
