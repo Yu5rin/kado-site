@@ -1,10 +1,12 @@
-# slideinacalendar-site
+# kado-site
 
-[SlideinaCalendar](https://github.com/Yu5rin/SlideinaCalendar) の公開ページ。
+[Kado](https://github.com/Yu5rin/Kado) の公開ページ。
 
 Google の OAuth 同意画面を**本番**に切り替えるには、ホームページ URL と
-プライバシーポリシー URL が要る。本体のリポジトリは private で、
-要件書や実働日のデータが入っているため公開できない。この2枚だけを分けて置いている。
+プライバシーポリシー URL が要る。その2枚だけをここに分けて置いている。
+
+本体のリポジトリと分けてあるのは、Google に登録した URL を本体の都合から
+切り離しておくため。本体側でフォルダ構成を変えても、ここの URL は動かない。
 
 | ファイル | 役割 |
 |---|---|
@@ -18,8 +20,8 @@ Settings → Pages で、Source を `Deploy from a branch`、Branch を `main` /
 公開後の URL。
 
 ```
-https://yu5rin.github.io/slideinacalendar-site/
-https://yu5rin.github.io/slideinacalendar-site/privacy.html
+https://yu5rin.github.io/kado-site/
+https://yu5rin.github.io/kado-site/privacy.html
 ```
 
 ## Google 側に入れる値
@@ -29,8 +31,8 @@ https://yu5rin.github.io/slideinacalendar-site/privacy.html
 
 | 欄 | 値 |
 |---|---|
-| アプリケーションのホームページ | `https://yu5rin.github.io/slideinacalendar-site/` |
-| [アプリケーション プライバシー ポリシー] リンク | `https://yu5rin.github.io/slideinacalendar-site/privacy.html` |
+| アプリケーションのホームページ | `https://yu5rin.github.io/kado-site/` |
+| [アプリケーション プライバシー ポリシー] リンク | `https://yu5rin.github.io/kado-site/privacy.html` |
 | 承認済みドメイン | `yu5rin.github.io` |
 
 ## 所有確認のファイル
